@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-content">
+            Soluciones Integrales Jasso
+        </div>
+    </header>
+    <section>
+        <div class="texto">
+            <hr>
+            <h1>Datos del trabajador</h1>
+            <hr>
+            <table cellspacing="0" cellpadding="10" border="1">
+                <tr>
+                    <td>
+         
+                        <table >
+                            <tr>
+                                <td>
+                                    Nombre:
+                                    <input />
+                                </td>
+                              
+                            </tr>
+                        </table>
+            <br>
+                        <h3>Domicilio</h3>
+                        <br>
+                        <table >
+                            <tr>
+                                <td>
+                                    Calle:
+                                    <br>
+                                    <input/>
+                                </td>
+                                <td>
+                                    No.
+                                    <br>
+                                    <input/>
+                                </td>
+                                <td>
+                                    Colonia:
+                                    <br>
+                                    <input/>
+                                </td>
+                            </tr>
+                        </table>                
+                    
+                        <table>
+                            <tr>
+                                <td>
+                                    Municipio
+                                    <br>
+                                    
+                                    <select id="municipio" name="Elige tu municipio" >
+                                        <option value="nr">Elige tu municipio</option>
+                                        <option value="nr">Nicolas Romero</option>
+                                        <option value="Naucalpan">Naucalpan</option>
+                                        <option value="Atizapan">Atizapan</option>
+                                        <option value="cuauti">Cuautitlan Izcali</option>
+                                    </select>   
+
+
+
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <div style="width: 530px; height: 200px; border: 1px solid #000; position: relative;">
+                            <h4 style="position: absolute; top: -10px; left: 4px;  padding: 0 5px;">Salario</h4>
+                        <br>
+                   <table>
+                    <tr>
+                        <td>
+                        Horas trabajadas
+                        <input/>
+                    </td>
+                  </tr>
+                
+               
+
+               
+                   </table>
+                   <br>  
+                   <table>
+                    <tr>
+                        <td>Tipo de hora</td>
+                        <td> <input type="radio"/>  Diurno</td>
+                        <td><input type="radio"/>  Nocturno</td>
+                        <td><input type="radio"/>  Matutino</td>
+    
+                       
+                    </tr>
+                   </table>  
+                   <br>      
+                       <table>
+                         <tr>
+                    <td>Salario por hora</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>Totales</td>
+                    <td><input type="text"></td>
+                </tr>
+                       </table>     
+
+
+                        </div>
+
+<table >
+    <tr>
+        <td><button>Calular</button> </td>
+        <td> <button>Borrar</button></td>
+        <td> <button>Salir</button></td>
+
+    </tr>
+</table>
+
+                    </td>
+                </tr>
+            </table>
+        
+
+       
+        
+
+
+
+
+        
+
+        <ul>
+            <li>
+                <a href="curriculum.html">Curriculum de desarrollador</a>
+
+            </li>
+            <li>
+                <a href="historia.html">Historia</a>
+
+            </li>
+
+        </ul>
+        
+    </section>
+</body>
+<style>
+    *{
+        background-color: rgb(220, 220, 210);
+        margin: 0%;
+    }
+    .navbar{
+        background-color: black;
+        height: 5em;
+        color: azure; /* Cambia el color del texto en el navbar */
+        font-family: 'Poppins', sans-serif;
+        font-size: large;
+        display: flex;
+        justify-content: center; /* Centra horizontalmente el contenido */
+        align-items: center; /* Centra verticalmente el contenido */
+        
+    }
+    .navbar-content {
+        background-color: black;
+        text-align: center; /* Alinea el texto en el centro horizontalmente */
+    }
+    .texto{
+        display: flex-box;
+        justify-content: center; /* Centra horizontalmente el contenido */
+        align-items: center;
+        margin: 5em;
+    }
+
+    h1,p, ul{
+        font-family: 'Poppins', sans-serif;
+    }
+    .contenedor{
+
+        display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide en 3 columnas iguales */
+    gap: 1em; /* Espacio entre elementos */
+    
+    margin-top: 4em;
+
+    }
+    .item {
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+</style>
+</html>
