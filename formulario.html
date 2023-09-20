@@ -14,13 +14,14 @@
         <div class="navbar-content">
             Soluciones Integrales Jasso
         </div>
-    </header>
+    </header> 
     <section>
         <div class="texto">
             <hr>
             <h1>Datos del trabajador</h1>
             <hr>
             <table cellspacing="0" cellpadding="10" border="1">
+                <form>
                 <tr>
                     <td>
          
@@ -28,7 +29,7 @@
                             <tr>
                                 <td>
                                     Nombre:
-                                    <input />
+                                    <input required />
                                 </td>
                               
                             </tr>
@@ -41,17 +42,17 @@
                                 <td>
                                     Calle:
                                     <br>
-                                    <input/>
+                                    <input required/>
                                 </td>
                                 <td>
                                     No.
                                     <br>
-                                    <input/>
+                                    <input type="number" required/>
                                 </td>
                                 <td>
                                     Colonia:
                                     <br>
-                                    <input/>
+                                    <input required/>
                                 </td>
                             </tr>
                         </table>                
@@ -76,15 +77,15 @@
                             </tr>
                         </table>
                         <br>
-
-                        <div style="width: 530px; height: 200px; border: 1px solid #000; position: relative;">
-                            <h4 style="position: absolute; top: -10px; left: 4px;  padding: 0 5px;">Salario</h4>
+<fieldset>
+    <legend>Salario</legend>
+                       
                         <br>
                    <table>
                     <tr>
                         <td>
                         Horas trabajadas
-                        <input/>
+                        <input required/>
                     </td>
                   </tr>
                 
@@ -96,9 +97,9 @@
                    <table>
                     <tr>
                         <td>Tipo de hora</td>
-                        <td> <input type="radio"/>  Diurno</td>
-                        <td><input type="radio"/>  Nocturno</td>
-                        <td><input type="radio"/>  Matutino</td>
+                        <td> <input type="radio" required/>  Diurno</td>
+                        <td><input type="radio" required/>  Nocturno</td>
+                        <td><input type="radio" required/>  Matutino</td>
     
                        
                     </tr>
@@ -107,22 +108,22 @@
                        <table>
                          <tr>
                     <td>Salario por hora</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" required></td>
                 </tr>
 
                 <tr>
                     <td>Totales</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" required></td>
                 </tr>
                        </table>     
+                
 
-
-                        </div>
+                    </fieldset>
 
 <table >
     <tr>
-        <td><button>Calular</button> </td>
-        <td> <button>Borrar</button></td>
+        <td><button type="submit">Calcular</button> </td>
+        <td> <button type="reset">Borrar</button></td>
         <td> <button>Salir</button></td>
 
     </tr>
@@ -130,6 +131,7 @@
 
                     </td>
                 </tr>
+            </form>
             </table>
         
 
@@ -143,7 +145,7 @@
 
         <ul>
             <li>
-                <a href="curriculum.html">Curriculum de desarrollador</a>
+                <a href="index.html">Inicio</a>
 
             </li>
             <li>
