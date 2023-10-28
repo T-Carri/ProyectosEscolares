@@ -1,0 +1,112 @@
+
+.card {
+    max-width: 100%;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+  }
+  
+  .card a {
+    text-decoration: none
+  }
+  
+  .content {
+    padding: .9rem;
+  }
+  
+  .image {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+
+  .image1 {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/4.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+
+  .image2 {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  .image3 {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/7.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  
+  .image4 {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/6.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  .image5 {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/5.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  .image6 {
+    width: 100%;
+    height: 3em;
+    background-image: url('../img/utfv.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+  }
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+  
